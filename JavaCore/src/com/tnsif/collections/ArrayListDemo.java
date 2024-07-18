@@ -23,6 +23,9 @@ public class ArrayListDemo {
 		Collections.sort(ob);
 		System.out.println("the elements of the array are"+ob);
 		
+		for (int i=0;i<ob.size();i++) {
+			System.out.println(ob);
+		}
 		
 		Iterator<String> i= ob.iterator();
 		while(i.hasNext()) {
